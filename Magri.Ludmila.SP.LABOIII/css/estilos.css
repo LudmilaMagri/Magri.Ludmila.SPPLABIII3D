@@ -1,0 +1,358 @@
+html{
+    cursor: url("../media/icons/cuchi2.png"), auto;
+}
+a{
+    cursor: url("../media/icons/cuchi2.png"), auto;
+
+}
+
+.divCabecera
+{
+    background-image: url("../media/banner4.jpg");
+    width: 100%;
+    height: 12vw;
+    margin-bottom: 1vw;
+    
+}
+
+.logoPrincipalImg
+{
+    height: 150px;
+    width: 200px;
+    margin-top: -10vw;
+    margin-right: -9vw;
+    margin-left: -27vw;
+    margin-bottom: 1.6vw;
+
+}
+@font-face {
+    font-family: 'Griffy';
+    src: url("../fonts/Griffy-Regular.ttf");
+}
+.tituloPrincipal
+{
+    font-family: 'Griffy';
+    src: url("../fonts/Griffy-Regular.ttf");
+    font-size: 60px;
+    font-style: italic;
+    color: #efcc0e;
+    text-align: center;
+    margin-right: 50vw;
+    margin-top: 1vw;
+}
+
+#lista-cabecera
+{
+    color: #efcc0e;
+    font-size: 1.2vw;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin-left: 60vw;
+    margin-bottom: 0vw;
+    text-decoration: none;
+}
+
+.item-lista-cabecera
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 1.5vw;
+    margin: 1vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+}
+
+.tituloBienvenida
+{
+    font-size: 50px;
+    color: #d37a2a;
+    font-family: 'Griffy';
+    src: url("../fonts/Griffy-Regular.ttf");
+    margin-bottom: 2vw;
+    margin:auto;
+}
+body
+{
+    background-image: linear-gradient(rgba(5,7,12, 0.30) ,rgba(5, 7, 12, 0.30)), url("../media/fondo2.jpg");
+    background-position: center center;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size:auto;
+    text-align: center;
+    
+   
+}
+
+.form-container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.fieldset-form
+{
+    border-radius: 10%;
+    border: 2.5px solid #efcc0e;
+    width: 60%;
+    margin:auto;
+    height: 60%;
+}
+
+.infoLabel-form
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #efcc0e;
+    font-style: italic;
+    font-size: 25px;
+    margin-right: 50%;
+    font-weight: 400;
+
+}
+
+.labelForm
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #efcc0e;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.nombreBox
+{
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 3px;
+    width: 50%; 
+    height: 25px; 
+    background-color: #d29b6a;
+    opacity: 50%;
+}
+.aliasBox
+{
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 3px;
+    width: 50%; 
+    height: 25px; 
+    background-color: #d29b6a;
+    opacity: 50%;
+}
+
+.labelMultipleChoise-form
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #d29b6a
+}
+
+.miedoRange
+{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 50%;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.miedoRange:hover {
+    opacity: 1; 
+  }
+
+.miedoRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background:#5b0a91;
+    cursor: pointer;
+  }
+  .miedoRange::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #5b0a91;
+    cursor: pointer;
+  }
+.tipoOpcion
+{
+    margin-bottom: 10px;
+    width: 25%;
+    text-align: center;
+    background-color: #d29b6a ;
+    opacity: 50%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+
+
+}
+.BtnGuardar
+{
+    background-image: url("../media/icons/save.png");
+    background-size:30%;
+    background-repeat:no-repeat;
+    background-position:left top;  padding-left:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    height: 50px;
+    text-align-last: center;
+    font-size: 15px;  
+    background-color:#d37a2a;
+    opacity: 85%;
+    border-color:  black;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 1px; 
+    margin-bottom: 10px;
+}
+.filtro{
+    margin-top: 40px;
+}
+.divFooter
+{
+    background-color:black;
+    width: 100%;
+    height: 6.9vw;
+    margin-top: 4.5vw;
+}
+
+#lista-footer
+{
+    color: white;
+    font-size: 1.3vw;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin-right: 60vw;
+    margin-bottom: 0vw;
+}
+.item-lista-despedida
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 1vw;
+    margin-top: 2.3vw;
+    margin-left: 0.5vw;
+}
+#parrafo-footer
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 206, 115);
+    text-align: right;
+    font-size: 1.4vw;
+}
+
+
+.item-lista-bienvenida
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 1.5vw;
+    margin: 1vw;
+    margin-top: 2.3vw;
+    margin-left: 2vw;
+}
+
+.iconoImg
+{
+    height: 2.5vw;
+    width: 2.5vw;
+}
+
+#loader
+{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin:auto;
+}
+
+#divSpinner
+{
+    margin-top: 30px;
+}
+
+table
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: #d29b6a;
+    width: 100%;
+    height: 40%;
+    border-collapse:collapse;
+    margin:auto;
+    margin-top: 5%;
+}
+
+th, td    
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px, 20px;
+}
+th
+{
+    text-transform: capitalize;
+    background-color: #5b0a91;
+    color: white
+}
+td
+{
+    text-align: left;
+    color: black;
+}
+.rowPar{
+    background-color: gray;
+}
+#contenedorTarjetas{
+    margin: auto;
+}
+.tarjetas{
+    background-color: #d29b6a;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%; 
+    margin: auto;
+    margin-top: 3%;
+    border: 3px solid black;
+    width: 50vw;
+    height: 20vw; 
+}
+.imgTarjeta{
+    float:left;
+    height: 2vw;
+    width: 2vw;
+    padding: 10px;
+    width: 2vw;
+    height: 2vw; 
+
+}
+
+.txtBox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin:auto;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 90px;
+}
+
+
+@media screen and (max-width: 800px) {
+    #ul-header, #ul-footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.chbox {
+    background-color: #5b0a91; 
+}

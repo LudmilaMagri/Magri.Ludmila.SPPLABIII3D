@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monstruos</title>
+
+    <script src="./appMonstruos.js" type="module" defer></script>
+    <link href="./css/estilos.css" rel="stylesheet" defer>
+
+</head>
+<body>
+    <header>
+        <nav class="divCabecera">  
+            <ul id="lista-cabecera">
+                <li class="item-lista-cabecera">Home</li>
+                <li class="item-lista-cabecera"><a href="cards.html" target="_self" rel="noopener noreferrer nofollow">Monstruos</a></li>
+                <li class="item-lista-cabecera">Blog</li>
+                <li class="item-lista-cabecera">Contacto</li>
+            </ul>
+            <a href="index.html" target="_self" rel="noopener noreferrer nofollow"> <img class="logoPrincipalImg" src="./media/icons/house.png" alt = "Foto del logo principal"></a>
+            <label class="tituloPrincipal">Halloween</label> 
+        </nav>
+    </header>
+
+    <div>
+        <p>
+            <h1>Informacion de Monstruos</h1>
+            <div class="spinner" id="divSpinner">
+                <label class="labelForm">Cargando información... </label> 
+                <img id="loader" src="./media/loader.gif" alt="Loader de pagina">
+            </div>
+    
+            <div id="contenedorTarjetas" hidden></div>
+        </p>
+    </div>
+    <div class="divFooter">  
+        <ul id="lista-footer">
+            <li class="item-lista-despedida">Home</li>
+            <li class="item-lista-despedida"><a href="cards.html" target="_self" rel="noopener noreferrer nofollow">Monstruos</a></li>
+            <li class="item-lista-despedida">Blog</li>
+            <li class="item-lista-despedida">Contacto</li>
+        </ul>
+        <div>
+            <p id="parrafo-footer">Laboratorio III - Todos los derechos reservados 2023. © </p>
+        </div>
+    </div>
+
+</body>
+</html>

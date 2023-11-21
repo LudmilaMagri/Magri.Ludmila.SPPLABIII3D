@@ -1,0 +1,94 @@
+{
+  "monstruos": [
+    {
+      "id": 1700145998908,
+      "Nombre": "Frankenstein",
+      "Tipo": "Zombie",
+      "Alias": "Frankito",
+      "Defensa": "Estaca",
+      "Miedo": "100"
+    },
+    {
+      "id": 1700417795355,
+      "Nombre": "Felicitas Guerrero",
+      "Tipo": "Fantasma",
+      "Alias": "Santa Felicitas",
+      "Defensa": "Crucifijo",
+      "Miedo": "58"
+    },
+    {
+      "id": 1700445795736,
+      "Nombre": "Bellatrix Lestrange",
+      "Tipo": "Bruja",
+      "Alias": "Bella",
+      "Defensa": "Posion",
+      "Miedo": "38"
+    },
+    {
+      "id": 1700506695090,
+      "Nombre": "Edward Cullen",
+      "Tipo": "Vampiro",
+      "Alias": "Vampirito",
+      "Defensa": "Plata",
+      "Miedo": "11"
+    },
+    {
+      "id": 1700584100493,
+      "Nombre": "Samara Morgan",
+      "Tipo": "Fantasma",
+      "Alias": "Sammy",
+      "Defensa": "Crucifijo",
+      "Miedo": "84"
+    },
+    {
+      "id": 1700584311667,
+      "Nombre": "Vlad Dracula",
+      "Tipo": "Vampiro",
+      "Alias": " Conde Dracula",
+      "Defensa": "Estaca",
+      "Miedo": "81"
+    },
+    {
+      "id": 1700584415075,
+      "Nombre": "Remus Lupin",
+      "Tipo": "Hombre Lobo",
+      "Alias": "Profesor Lupin",
+      "Defensa": "Plata",
+      "Miedo": "26"
+    },
+    {
+      "id": 1700584654216,
+      "Nombre": "Michael Myers",
+      "Tipo": "Zombie",
+      "Alias": "El del cuchillo",
+      "Defensa": "Estaca",
+      "Miedo": "67"
+    },
+    {
+      "id": 1700585234513,
+      "Nombre": "Huesos",
+      "Tipo": "Esqueleto",
+      "Alias": "Huesitos",
+      "Defensa": "Posion",
+      "Miedo": "67"
+    },
+    {
+      "id": 1700605148566,
+      "Nombre": "Ludmila",
+      "Tipo": "Bruja",
+      "Alias": "Luli",
+      "Defensa": "Estaca",
+      "Miedo": "48"
+    }
+  ],
+  "tipoMonstruos": [
+    "Todos",
+    "Esqueleto",
+    "Zombie",
+    "Vampiro",
+    "Fantasma",
+    "Bruja",
+    "Hombre Lobo",
+    "Otro"
+  ]
+}
